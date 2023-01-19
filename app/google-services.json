@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "638385087458",
+    "project_id": "teammaker-2299d",
+    "storage_bucket": "teammaker-2299d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638385087458:android:4f54f0a97ab52790db4fbb",
+        "android_client_info": {
+          "package_name": "com.example.teammaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638385087458-elvbnd72q0fq2irupqnnukjefi2ot81i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKS7wwtwBrrse9U75kWBV_FIKAZJtyd8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638385087458-elvbnd72q0fq2irupqnnukjefi2ot81i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

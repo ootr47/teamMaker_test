@@ -1,0 +1,132 @@
+[debug] [2023-01-19T04:40:33.230Z] ----------------------------------------------------------------------
+[debug] [2023-01-19T04:40:33.231Z] Command:       /Users/parkseungjun/.nvm/versions/node/v18.13.0/bin/node /Users/parkseungjun/.nvm/versions/node/v18.13.0/bin/firebase emulators:start
+[debug] [2023-01-19T04:40:33.231Z] CLI Version:   11.20.0
+[debug] [2023-01-19T04:40:33.231Z] Platform:      darwin
+[debug] [2023-01-19T04:40:33.231Z] Node Version:  v18.13.0
+[debug] [2023-01-19T04:40:33.232Z] Time:          Thu Jan 19 2023 13:40:33 GMT+0900 (대한민국 표준시)
+[debug] [2023-01-19T04:40:33.232Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-19T04:40:33.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-19T04:40:33.283Z] > authorizing via signed-in user (ootr45@gmail.com)
+[debug] [2023-01-19T04:40:33.328Z] java version "19.0.1" 2022-10-18
+
+[debug] [2023-01-19T04:40:33.329Z] Java(TM) SE Runtime Environment (build 19.0.1+10-21)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+[debug] [2023-01-19T04:40:33.331Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, database, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, database, hosting, storage"}}
+[debug] [2023-01-19T04:40:33.596Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-19T04:40:33.596Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-19T04:40:33.596Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  hosting: Hosting Emulator unable to start on port 5001, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5001, starting on 5002 instead."}}
+[debug] [2023-01-19T04:40:33.596Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-19T04:40:33.596Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-19T04:40:33.597Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-01-19T04:40:33.601Z] [hub] writing locator at /var/folders/vl/lg6y5k_s74vbmgyvm9b54dyr0000gn/T/hub-teammaker-2299d.json
+[debug] [2023-01-19T04:40:33.603Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d [none]
+[debug] [2023-01-19T04:40:34.036Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d 200
+[debug] [2023-01-19T04:40:34.036Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d {"projectId":"teammaker-2299d","projectNumber":"638385087458","displayName":"TeamMaker","name":"projects/teammaker-2299d","resources":{"hostingSite":"teammaker-2299d","realtimeDatabaseInstance":"teammaker-2299d-default-rtdb","storageBucket":"teammaker-2299d.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0cf402ad-01df-4699-8b72-69272edcd9fa"}
+[debug] [2023-01-19T04:40:34.037Z] database rules config:  [{"instance":"teammaker-2299d-default-rtdb","rules":"/Users/parkseungjun/AndroidStudioProjects/TeamMaker/database.rules.json"}]
+[debug] [2023-01-19T04:40:34.045Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2023-01-19T04:40:34.045Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-01-19T04:40:34.045Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2023-01-19T04:40:34.045Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/parkseungjun/.cache/firebase/emulators/firebase-database-emulator-v4.11.0.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning"],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/Users/parkseungjun/.cache/firebase/emulators/firebase-database-emulator-v4.11.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\"],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2023-01-19T04:40:34.650Z] 13:40:34.649 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+ {"metadata":{"emulator":{"name":"database"},"message":"13:40:34.649 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started\n"}}
+[debug] [2023-01-19T04:40:34.740Z] 13:40:34.740 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+ {"metadata":{"emulator":{"name":"database"},"message":"13:40:34.740 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000\n"}}
+[debug] [2023-01-19T04:40:37.577Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-01-19T04:40:37.963Z] Temp file directory for storage emulator: /var/folders/vl/lg6y5k_s74vbmgyvm9b54dyr0000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/vl/lg6y5k_s74vbmgyvm9b54dyr0000gn/T/firebase/storage/blobs"}}
+[debug] [2023-01-19T04:40:37.966Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/teammaker-2299d/sites 
+[debug] [2023-01-19T04:40:38.817Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/teammaker-2299d/sites 200
+[debug] [2023-01-19T04:40:38.817Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/teammaker-2299d/sites {"sites":[{"name":"projects/teammaker-2299d/sites/teammaker-2299d","defaultUrl":"https://teammaker-2299d.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-01-19T04:40:38.817Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d/webApps/-/config [none]
+[debug] [2023-01-19T04:40:39.636Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d/webApps/-/config 200
+[debug] [2023-01-19T04:40:39.636Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d/webApps/-/config {"projectId":"teammaker-2299d","databaseURL":"https://teammaker-2299d-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"teammaker-2299d.appspot.com","locationId":"us-central","apiKey":"AIzaSyC66eHCskR3v1Z3kOj19UFvYv46z2pv1a0","authDomain":"teammaker-2299d.firebaseapp.com","messagingSenderId":"638385087458"}
+[debug] [2023-01-19T04:40:39.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d [none]
+[debug] [2023-01-19T04:40:40.135Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d 200
+[debug] [2023-01-19T04:40:40.135Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/teammaker-2299d {"projectId":"teammaker-2299d","projectNumber":"638385087458","displayName":"TeamMaker","name":"projects/teammaker-2299d","resources":{"hostingSite":"teammaker-2299d","realtimeDatabaseInstance":"teammaker-2299d-default-rtdb","storageBucket":"teammaker-2299d.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0cf402ad-01df-4699-8b72-69272edcd9fa"}
+[info] i  hosting[teammaker-2299d]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[teammaker-2299d]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[debug] [2023-01-19T04:40:40.197Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-01-19T04:40:40.198Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-01-19T04:40:40.198Z] Starting Emulator UI with command {"binary":"node","args":["/Users/parkseungjun/.cache/firebase/emulators/ui-v1.11.2/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/parkseungjun/.cache/firebase/emulators/ui-v1.11.2/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-01-19T04:40:40.256Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-01-19T04:40:40.256Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2023-01-19T04:40:40.455Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=teammaker-2299d-default-rtdb
+[debug] [2023-01-19T04:40:40.455Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  \"rules\": {\n    \".read\": \"true\",\n    \".write\": \"true\"}\n}"
+[debug] [2023-01-19T04:40:40.648Z] 13:40:40.648 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - teammaker-2299d-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 75ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"13:40:40.648 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - teammaker-2299d-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 75ms, init: 0ms\n"}}
+[debug] [2023-01-19T04:40:40.681Z] 13:40:40.681 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace teammaker-2299d-default-rtdb status Active to Active
+ {"metadata":{"emulator":{"name":"database"},"message":"13:40:40.681 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace teammaker-2299d-default-rtdb status Active to Active\n"}}
+[debug] [2023-01-19T04:40:40.696Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2023-01-19T04:40:40.696Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI            │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth     │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Hosting        │ 127.0.0.1:5002 │ n/a                            │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage  │
+└────────────────┴────────────────┴────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET / HTTP/1.1" 200 - "http://localhost:4000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET / HTTP/1.1\" 200 - \"http://localhost:4000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:04.576Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js [none]
+[debug] [2023-01-19T05:47:04.590Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js [none]
+[debug] [2023-01-19T05:47:04.591Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js [none]
+[debug] [2023-01-19T05:47:04.592Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js [none]
+[debug] [2023-01-19T05:47:04.593Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-functions-compat.js [none]
+[debug] [2023-01-19T05:47:04.594Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging-compat.js [none]
+[debug] [2023-01-19T05:47:04.763Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging-compat.js 200
+[debug] [2023-01-19T05:47:04.763Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-messaging-compat.js HTTP/1.1" 200 9925 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-messaging-compat.js HTTP/1.1\" 200 9925 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:04.769Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js 200
+[debug] [2023-01-19T05:47:04.769Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js [stream]
+[debug] [2023-01-19T05:47:04.772Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js 200
+[debug] [2023-01-19T05:47:04.772Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js [stream]
+[debug] [2023-01-19T05:47:04.776Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js 200
+[debug] [2023-01-19T05:47:04.776Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-app-compat.js HTTP/1.1" 200 9258 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-app-compat.js HTTP/1.1\" 200 9258 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:04.780Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js 200
+[debug] [2023-01-19T05:47:04.780Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js [stream]
+[debug] [2023-01-19T05:47:04.781Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-storage-compat.js [none]
+[debug] [2023-01-19T05:47:04.786Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-functions-compat.js 200
+[debug] [2023-01-19T05:47:04.786Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-functions-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-functions-compat.js HTTP/1.1" 200 8116 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-functions-compat.js HTTP/1.1\" 200 8116 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:04.792Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics-compat.js [none]
+[debug] [2023-01-19T05:47:04.794Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-database-compat.js HTTP/1.1" 200 165433 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-database-compat.js HTTP/1.1\" 200 165433 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:04.886Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-performance-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-auth-compat.js HTTP/1.1" 200 125558 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-auth-compat.js HTTP/1.1\" 200 125558 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-firestore-compat.js HTTP/1.1" 200 319571 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-firestore-compat.js HTTP/1.1\" 200 319571 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:04.948Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config-compat.js 200
+[debug] [2023-01-19T05:47:04.948Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config-compat.js [stream]
+[debug] [2023-01-19T05:47:04.949Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics-compat.js 200
+[debug] [2023-01-19T05:47:04.949Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics-compat.js [stream]
+[debug] [2023-01-19T05:47:04.951Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-storage-compat.js 200
+[debug] [2023-01-19T05:47:04.951Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-storage-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-analytics-compat.js HTTP/1.1" 200 25820 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-analytics-compat.js HTTP/1.1\" 200 25820 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] "GET /__/firebase/9.15.0/firebase-remote-config-compat.js HTTP/1.1" 200 27216 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:04 +0000] \"GET /__/firebase/9.15.0/firebase-remote-config-compat.js HTTP/1.1\" 200 27216 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:05 +0000] "GET /__/firebase/9.15.0/firebase-storage-compat.js HTTP/1.1" 200 39372 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:05 +0000] \"GET /__/firebase/9.15.0/firebase-storage-compat.js HTTP/1.1\" 200 39372 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[debug] [2023-01-19T05:47:05.121Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-performance-compat.js 200
+[debug] [2023-01-19T05:47:05.121Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.15.0/firebase-performance-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:05 +0000] "GET /__/firebase/9.15.0/firebase-performance-compat.js HTTP/1.1" 200 30748 "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:05 +0000] \"GET /__/firebase/9.15.0/firebase-performance-compat.js HTTP/1.1\" 200 30748 \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jan/2023:05:47:05 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jan/2023:05:47:05 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\""}}

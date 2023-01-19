@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp">
+    <TextView
+        android:id="@+id/timeStamp"
+        android:text="시간"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textSize="6sp"
+        />
+    <TextView
+        android:id="@+id/textMessage"
+        android:text="message"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        />
+</LinearLayout>
